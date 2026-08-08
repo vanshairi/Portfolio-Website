@@ -71,6 +71,9 @@ body {
   color: beige;
 }
 
+.navbar a{
+  text-decoration: none;
+}
 
 /* HOME SECTION */
 
