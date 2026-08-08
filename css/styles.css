@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Google Sans", sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+  margin: 1rem auto;
+  width: 70%;
+  background-color: rgb(40, 40, 40);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+}
+
+.nav-links {
+  display: none;
+}
+
+.navbar h1 {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.navbar button {
+  background: linear-gradient(90deg, #209cf5, #d900f5);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 999px;
+  border: none;
+  font-size: 0.7rem;
+  transition: 0.3s;
+}
+
+.navbar button:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.nav-links li{
+  transition: 0.3s;
+}
+
+.nav-links li:hover{
+  color: beige;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+  .navbar {
+    gap: 2rem;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    font-size: 0.8rem;
+  }
+
+  .nav-links a {
+    color: grey;
+    text-decoration: none;
+  }
+
+  .nav-links li {
+    margin-right: 0.5rem;
+  }
+
+  .navbar button {
+    display: flex;
+  }
+
+  .navbar a {
+    text-decoration: none;
+  }
+
+
+
+}
