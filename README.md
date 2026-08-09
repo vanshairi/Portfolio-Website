@@ -23,7 +23,7 @@ This project was created to build and showcase my personal portfolio while stren
 
 ## Live Demo
 
-[View Portfolio](#)
+[View Portfolio](https://vansh-airi-portfolio.vercel.app)
 
 ## Preview
 
