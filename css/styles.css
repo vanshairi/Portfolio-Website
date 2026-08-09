@@ -193,6 +193,83 @@ body {
 }
 
 
+/* Projects Section */
+
+.projects{
+  margin: 2rem;
+  padding-top: 10rem;
+}
+
+.projects h2{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.projects-grid{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;  
+}
+
+.project-card{
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  transition: 0.4s;
+}
+
+.project-image{
+  text-align: center;
+}
+
+.project-image img{
+  width: 80%;
+  border: 6px solid transparent;
+  background-color: #af04c5;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.project-desc{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.project-card-buttons{
+  text-align: center;
+}
+
+.project-card-buttons button{
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  background-color: white;
+  border-width: 4px;
+  border-radius: 20px;
+  border-color: black;
+}
+
+.project-card:hover{
+  background-color: black;
+  color: white;
+  transform: translateY(-4px);
+}
+
+.project-card:hover button{
+  background-color: black;
+  color: white;
+}
+
+.project-card-buttons button:hover{
+  cursor: pointer;
+}
+
+
+
 /* MEDIA QUERIES */
 
 
@@ -251,6 +328,8 @@ body {
     grid-template-columns: repeat(3,1fr);
     align-items: center;
   }
+
+  
 
 
 }
