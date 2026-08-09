@@ -25,16 +25,11 @@ This project was created to build and showcase my personal portfolio while stren
 
 [View Portfolio](https://vansh-airi-portfolio.vercel.app)
 
-## Preview
-
-Add screenshots of your portfolio here.
-
 ## Future Improvements
 
 * Add JavaScript for interactive functionality
 * Add more projects as I build them
 * Improve animations and transitions
-* Add a backend for the contact form
 
 ## Author
 
