@@ -27,7 +27,6 @@ This project was created to build and showcase my personal portfolio while stren
 
 ## Future Improvements
 
-* Add JavaScript for interactive functionality
 * Add more projects as I build them
 * Improve animations and transitions
 
